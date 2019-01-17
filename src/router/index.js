@@ -6,6 +6,17 @@ export const main = [
   { path: '/', exact: true, name: '首页', component: Index }
 ]
 
+// export const main = [
+//   {
+//     path: '/',
+//     component: App,
+//     childRoutes: [
+//       { path: 'login', component: Login },
+//       { path: '/', exact: true, name: '首页', component: Index }
+//     ]
+//   }
+// ]
+
 export const menus = []
 
 export const routerConfig = {
